@@ -1,0 +1,43 @@
+﻿@page "/CreatePerson"
+@using MiniPerson.EndPoints.UI.DTOs.Persons
+@inject HttpClient Http
+@using System.Net.Http.Json
+<p>CreatePerson Page</p>
+<hr />
+<hr />
+<div class="container">
+    <EditForm Model="@createPerson" OnValidSubmit="@CreatePersonFunction">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row" style="margin-top:10px">
+                    <div class="col-md-12">
+                        <label for="firstName">First Name #</label>
+                        <input type="text" class="form-control" id="firstName" @bind-value="@createPerson.FirstName" placeholder="enter first name..." />
+                        <ValidationMessage For="@(()=>createPerson.FirstName)" />
+                    </div>
+                </div>
+                <div class="row" style="margin-top:10px">
+                    <div class="col-md-12">
+                        <label for="lastName">Last Name #</label>
+                        <input type="text" class="form-control" id="lastName" @bind-value="@createPerson.LastName" placeholder="enter last name..." />
+                        <ValidationMessage For="@(()=>createPerson.LastName)" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-info" Style="margin-top:10px">Add user</button>
+            </div>
+        </div>
+    </EditForm>
+</div>
+@code {
+    CreatePersonCommand createPerson = new CreatePersonCommand();
+    async void CreatePersonFunction()
+    {
+        //HttpClient Http = new HttpClient();
+        string baseUrl = "https://localhost:7295/";
+        var httpClient = new HttpClient();
+        //var response = httpClient.SendAsync(baseUrl + "api/Person/CreatePerson", createPerson).Result;
+        //bool returnValue = response.Content.ReadAsAsync<bool>().Result;
+        //var response = await Http.PostAsJsonAsync<HttpResponseMessage>("api/Persons/CreatePerson", CreatePersonModel);
+        //var temp2 = Task.Run(async () => { await Http.GetStringAsync($"{baseUrl}api/values/5"); });
+    }
+}
