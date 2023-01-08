@@ -27,9 +27,9 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                 {
                     table.PrimaryKey("PK_PersonProduct", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PersonProduct_Persons_PersonId",
+                        name: "FK_PersonProduct_People_PersonId",
                         column: x => x.PersonId,
-                        principalTable: "Persons",
+                        principalTable: "People",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });

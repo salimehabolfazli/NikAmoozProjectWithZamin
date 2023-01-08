@@ -14,8 +14,4 @@
     <ProjectReference Include="..\MiniPerson.Core.Domain\MiniPerson.Core.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Persons\PersonProduct\Queries\" />
-  </ItemGroup>
-
 </Project>

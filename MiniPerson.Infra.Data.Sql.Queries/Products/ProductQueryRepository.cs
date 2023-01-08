@@ -1,23 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MiniPerson.Core.Contracts.Persons.Queries.GetPersonByBusinessId;
-using MiniPerson.Core.Contracts.Persons.Queries.GetPersonList;
 using MiniPerson.Core.Contracts.Products.Queries;
-using MiniPerson.Core.Contracts.Products.Queries.GetAllProduct;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductByBusinessId;
+using MiniPerson.Core.Contracts.Products.Queries.GetProducts;
+using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
 using MiniPerson.Infra.Data.Sql.Queries.Common;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Infra.Data.Sql.Queries;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace MiniPerson.Infra.Data.Sql.Queries.Persons
+namespace MiniPerson.Infra.Data.Sql.Queries.People
 {
     public class ProductQueryRepository : BaseQueryRepository<MiniPersonQueryDbContext>, IProductQueryRepository
     {
         public ProductQueryRepository(MiniPersonQueryDbContext dbContext) : base(dbContext)
         {
         }
-        public async Task<ProductQr> Execute(GetProductByBusinessIdQuery query)
-           => await _dbContext.Products.Where(c => c.BusinessId.Equals(query.ProductBusinessId)).Select(c => new ProductQr()
+        public async Task<ProductQr> Execute(GetProductByIdQuery query)
+           => await _dbContext.Products.Where(c => c.Id.Equals(query.ProductId)).Select(c => new ProductQr()
            {
                Id = c.Id,
                BusinessId = c.BusinessId,
@@ -34,7 +31,7 @@ namespace MiniPerson.Infra.Data.Sql.Queries.Persons
             }).FirstOrDefaultAsync();
 
 
-        public PagedData<ProductQr> Execute(GetAllProductQuery productList)
+        public PagedData<ProductQr> Execute(GetProductsQuery productList)
         {
             PagedData<ProductQr> result = new();
             var query = _dbContext.Products.AsNoTracking();

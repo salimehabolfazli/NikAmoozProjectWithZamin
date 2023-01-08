@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MiniPerson.Core.Domain.Persons.ValueObjects;
+using MiniPerson.Core.Domain.People.ValueObjects;
 using Zamin.Core.Domain.Toolkits.ValueObjects;
 
 namespace NewCms.Infra.Data.Sql.Commands.Common

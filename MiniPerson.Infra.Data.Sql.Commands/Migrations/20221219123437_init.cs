@@ -38,7 +38,7 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Persons",
+                name: "People",
                 columns: table => new
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
@@ -53,7 +53,7 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Persons", x => x.Id);
+                    table.PrimaryKey("PK_People", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -74,9 +74,9 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                 {
                     table.PrimaryKey("PK_PersonPhoneNumber", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_PersonPhoneNumber_Persons_PersonId",
+                        name: "FK_PersonPhoneNumber_People_PersonId",
                         column: x => x.PersonId,
-                        principalTable: "Persons",
+                        principalTable: "People",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -97,7 +97,7 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                 name: "PersonPhoneNumber");
 
             migrationBuilder.DropTable(
-                name: "Persons");
+                name: "People");
         }
     }
 }

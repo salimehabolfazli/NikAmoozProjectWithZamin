@@ -1,8 +1,10 @@
-﻿@page "/CreatePerson"
-@using MiniPerson.EndPoints.UI.DTOs.Persons
+﻿@page "/create"
+@page "/edit/{Id}"
+@using MiniPerson.EndPoints.UI.DTOs.People
 @inject HttpClient Http
-@using System.Net.Http.Json
-<p>CreatePerson Page</p>
+@inject NavigationManager navigationManager
+@inject IConfiguration Configuration
+<p>@Title</p>
 <hr />
 <hr />
 <div class="container">
@@ -23,21 +25,48 @@
                         <ValidationMessage For="@(()=>createPerson.LastName)" />
                     </div>
                 </div>
-                <button type="submit" class="btn btn-info" Style="margin-top:10px">Add user</button>
+                <button type="submit" class="btn btn-info" Style="margin-top:10px">@ButtonText</button>
             </div>
         </div>
     </EditForm>
 </div>
 @code {
+    [Parameter]
+    public string Id { get; set; }
+    private string Title { get; set; } = "Add";
+    private string ButtonText { get; set; } = "Add User";
     CreatePersonCommand createPerson = new CreatePersonCommand();
+    private string baseUrl = "";
+    private HttpClient httpClient = new HttpClient();
+    protected override async Task OnInitializedAsync()
+    {
+        baseUrl = Configuration["baseUrl"];
+        if (Id != null)
+        {
+            Title = "Edit Person Page";
+            ButtonText = "Edit User";
+            createPerson = await httpClient.GetFromJsonAsync<CreatePersonCommand>(baseUrl + "api/PersonQuery/GetPersonById?GetPersonById=" + Id);
+        }
+        else
+        {
+            Title = "Add Person Page";
+            ButtonText = "Add User";
+
+        }
+    }
     async void CreatePersonFunction()
     {
-        //HttpClient Http = new HttpClient();
-        string baseUrl = "https://localhost:7295/";
-        var httpClient = new HttpClient();
-        //var response = httpClient.SendAsync(baseUrl + "api/Person/CreatePerson", createPerson).Result;
-        //bool returnValue = response.Content.ReadAsAsync<bool>().Result;
-        //var response = await Http.PostAsJsonAsync<HttpResponseMessage>("api/Persons/CreatePerson", CreatePersonModel);
-        //var temp2 = Task.Run(async () => { await Http.GetStringAsync($"{baseUrl}api/values/5"); });
+        if (Id != null)
+        {
+            createPerson.PersonBusinessId = Guid.Parse(Id);
+            var response = await httpClient.PutAsJsonAsync(baseUrl + "api/PersonCommand/Edit", createPerson);
+        }
+        else
+        {
+            var response2 = await httpClient.PostAsJsonAsync(baseUrl + "api/PersonCommand/Create", createPerson);
+        }
+
+
+        navigationManager.NavigateTo("people");
     }
 }

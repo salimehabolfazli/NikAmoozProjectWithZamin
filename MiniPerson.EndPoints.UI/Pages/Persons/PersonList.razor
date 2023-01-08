@@ -1,5 +1,89 @@
-﻿<h3>PersonList</h3>
+﻿@page "/people"
+@using MiniPerson.EndPoints.UI.DTOs.People
+@using MiniPerson.Endpoints.Shared.Modals.Components;
+@inject IJSRuntime JSRuntime
+@inject IConfiguration Configuration
+<p>People</p>
+<hr />
+<hr />
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <NavLink href="/create" class="btn btn-info form-control">
+                Add New Person
+            </NavLink>
+            <div class="post_content">
+                <table class="table table-bordered table-hover">
+                    <thead style="background-color:gray">
+                        <tr>
+                            <td>FirstName</td>
+                            <td>LastName</td>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Response.QueryResult != null && Response.QueryResult.Any())
+                        {
+                            foreach (var person in Response.QueryResult)
+                            {
+                                <tr>
+                                    <td>
+                                        @person.FirstName
+                                    </td>
+                                    <td>
+                                        @person.LastName
+                                    </td>
+                                    <td>
+                                        <NavLink href="@($"edit/{person.Id}")" class="btn btn-warning">Edit</NavLink>
+                                        <button class="btn btn-danger" @onclick="@(() =>{ modal.Open();HandleDelete(person.Id);})">Delete</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="4">هیچ آیتمی یافت نشد</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<Modal @ref="modal">
+    <Title>Delete Person</Title>
+    <Body>
+        Are you sure you want to delete the record?
+    </Body>
+    <Footer>
+        <button type="button" class="btn btn-primary" @onclick="() => ConfirmDelete_Click()">Save</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="() => modal.Close()">Close</button>
+    </Footer>
+</Modal>
 @code {
+    private Modal modal { get; set; }
+    public PagedData<PersonQr> Response { get; set; } = new PagedData<PersonQr>();
+    private long? DeletePersonId { get; set; } = null;
+    private string baseUrl = "";
+    private HttpClient httpClient = new HttpClient();
+    protected override async Task OnInitializedAsync()
+    {
+        baseUrl = Configuration["baseUrl"];
+        Response = await httpClient.GetFromJsonAsync<PagedData<PersonQr>>(baseUrl + "api/PersonQuery/GetPeople");
+    }
+    public async Task ConfirmDelete_Click()
+    {
+        var response = await httpClient.DeleteFromJsonAsync<bool>(baseUrl + "api/PersonCommand/Delete?PersonId=" + DeletePersonId);
+        await JSRuntime.InvokeVoidAsync("ShowToastr", "success", "Deleted Successful");
+        Response = await httpClient.GetFromJsonAsync<PagedData<PersonQr>>(baseUrl + "api/PersonQuery/GetPeople");
 
+        modal.Close();
+    }
+    public async Task HandleDelete(long personBusinessId)
+    {
+        this.DeletePersonId = personBusinessId;
+    }
 }

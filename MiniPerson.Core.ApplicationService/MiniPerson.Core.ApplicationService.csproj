@@ -16,11 +16,4 @@
     <ProjectReference Include="..\MiniPerson.Core.Domain\MiniPerson.Core.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Persons\PersonPhoneNumber\Commands\DeletePersonPhoneNumber\" />
-    <Folder Include="Persons\PersonProductf\Queries\" />
-    <Folder Include="Persons\PersonPhoneNumber\Queries\" />
-    <Folder Include="Persons\Services\" />
-  </ItemGroup>
-
 </Project>

@@ -10,10 +10,10 @@ SerilogExtensions.RunWithSerilogExceptionHandling(() =>
     var app = builder.AddZaminSerilog(c =>
     {
         c.ApplicationName = "MiniPerson";
-        c.ServiceName = "MiniPersonService";
+        c.ServiceName = "MiniPeopleervice";
         c.ServiceVersion = "1.0";
     }).ConfigureServices().ConfigurePipeline();
 
-    app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader());
+    app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
     app.Run();
 });

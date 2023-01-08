@@ -22,7 +22,7 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("MiniPerson.Core.Domain.Persons.Entities.Person", b =>
+            modelBuilder.Entity("MiniPerson.Core.Domain.People.Entities.Person", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,10 +57,10 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Persons");
+                    b.ToTable("People");
                 });
 
-            modelBuilder.Entity("MiniPerson.Core.Domain.Persons.Entities.PersonPhoneNumber", b =>
+            modelBuilder.Entity("MiniPerson.Core.Domain.People.Entities.PersonPhoneNumber", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,7 +99,7 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                     b.ToTable("PersonPhoneNumber");
                 });
 
-            modelBuilder.Entity("MiniPerson.Core.Domain.Persons.Entities.Product", b =>
+            modelBuilder.Entity("MiniPerson.Core.Domain.People.Entities.Product", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -241,9 +241,9 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
                     b.ToTable("OutBoxEventItems", "zamin");
                 });
 
-            modelBuilder.Entity("MiniPerson.Core.Domain.Persons.Entities.PersonPhoneNumber", b =>
+            modelBuilder.Entity("MiniPerson.Core.Domain.People.Entities.PersonPhoneNumber", b =>
                 {
-                    b.HasOne("MiniPerson.Core.Domain.Persons.Entities.Person", null)
+                    b.HasOne("MiniPerson.Core.Domain.People.Entities.Person", null)
                         .WithMany("PhoneNumbers")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -252,14 +252,14 @@ namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
 
             modelBuilder.Entity("NewCms.Core.Domain.NewsAgg.Entities.PersonProduct", b =>
                 {
-                    b.HasOne("MiniPerson.Core.Domain.Persons.Entities.Person", null)
+                    b.HasOne("MiniPerson.Core.Domain.People.Entities.Person", null)
                         .WithMany("PersonProducts")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("MiniPerson.Core.Domain.Persons.Entities.Person", b =>
+            modelBuilder.Entity("MiniPerson.Core.Domain.People.Entities.Person", b =>
                 {
                     b.Navigation("PersonProducts");
 

@@ -1,4 +1,4 @@
-﻿using MiniPerson.Core.Domain.Persons.Entities;
+﻿using MiniPerson.Core.Domain.People.Entities;
 using Zamin.Core.Contracts.Data.Commands;
 
 namespace MiniPerson.Core.Contracts.Products.Commands
