@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.ApplicationServices.Events;
 
-namespace MiniPerson.Endpoints.API.CustomDecorators;
+namespace WebLog.Endpoints.API.CustomDecorators;
 
 public class CustomEventDecorator : EventDispatcherDecorator
 {

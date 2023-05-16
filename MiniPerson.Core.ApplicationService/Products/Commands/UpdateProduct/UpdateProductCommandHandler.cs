@@ -1,13 +1,11 @@
-﻿
-
-using MiniPerson.Core.Contracts.Products.Commands;
-using MiniPerson.Core.Contracts.Products.Commands.UpdateProduct;
+﻿using WebLog.Core.Contracts.Products.Commands;
+using WebLog.Core.Contracts.Products.Commands.UpdateProduct;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Common;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.Products.Commands.UpdateProduct
+namespace WebLog.Core.ApplicationService.Products.Commands.UpdateProduct
 {
     public class UpdateProductHandler : CommandHandler<UpdateProductCommand, long>
     {
@@ -25,7 +23,7 @@ namespace MiniPerson.Core.ApplicationService.Products.Commands.UpdateProduct
             if (product == null)
                 return Result(command.ProductId, ApplicationServiceStatus.NotFound);
 
-            product.ProductUpdate(command.Title,command.Description);
+            product.ProductUpdate(command.Title, command.Description);
             await productCommandRepository.CommitAsync();
             return Ok(product.Id);
         }

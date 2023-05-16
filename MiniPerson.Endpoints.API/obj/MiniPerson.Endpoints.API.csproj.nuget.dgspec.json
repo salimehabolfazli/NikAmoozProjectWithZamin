@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj": {}
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj",
-        "projectName": "MiniPerson.Core.ApplicationService",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\obj\\",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj",
+        "projectName": "WebLog.Core.ApplicationService",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
               }
             }
           }
@@ -72,21 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj",
-        "projectName": "MiniPerson.Core.Contracts",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\obj\\",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj",
+        "projectName": "WebLog.Core.Contracts",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +100,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
               }
             }
           }
@@ -137,21 +137,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
-        "projectName": "MiniPerson.Core.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\obj\\",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj",
+        "projectName": "WebLog.Core.Domain",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,21 +202,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
         "projectName": "MiniPerson.Endpoints.API",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\obj\\",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -230,20 +230,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj"
               }
             }
           }
@@ -348,21 +348,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj",
-        "projectName": "MiniPerson.Infra.Data.Sql.Commands",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\obj\\",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj",
+        "projectName": "WebLog.Infra.Data.Sql.Commands",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -376,11 +376,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
               }
             }
           }
@@ -424,21 +424,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj",
-        "projectName": "MiniPerson.Infra.Data.Sql.Queries",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\obj\\",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj",
+        "projectName": "WebLog.Infra.Data.Sql.Queries",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -452,8 +452,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
               }
             }
           }
@@ -489,7 +489,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

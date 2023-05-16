@@ -1,15 +1,15 @@
-﻿using MiniPerson.Core.Contracts.Products.Commands;
-using MiniPerson.Core.Contracts.Products.Commands.UpdateProduct;
-using MiniPerson.Core.Domain.People.Entities;
-using MiniPerson.Infra.Data.Sql.Commands.Common;
+﻿using WebLog.Core.Contracts.Products.Commands;
+using WebLog.Core.Contracts.Products.Commands.UpdateProduct;
+using WebLog.Core.Domain.Products.Entities;
+using WebLog.Infra.Data.Sql.Commands.Common;
 using Zamin.Infra.Data.Sql.Commands;
 
-namespace MiniPerson.Infra.Data.Sql.Commands.Products
+namespace WebLog.Infra.Data.Sql.Commands.Products
 {
-    public class ProductCommandRepository: BaseCommandRepository<Product, MiniPersonCommandDbContext>,
+    public class ProductCommandRepository : BaseCommandRepository<Product, WebLogCommandDbContext>,
         IProductCommandRepository
     {
-        public ProductCommandRepository(MiniPersonCommandDbContext dbContext) : base(dbContext)
+        public ProductCommandRepository(WebLogCommandDbContext dbContext) : base(dbContext)
         {
         }
         public async Task<bool> Edit(UpdateProductCommand person)

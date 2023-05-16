@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using MiniPerson.Core.Contracts.People.Queries.GetPersonById;
-using MiniPerson.Core.Contracts.People.Queries.GetPeople;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.EndPoints.Web.Controllers;
+using WebLog.Core.Contracts.People.Queries.GetPeople;
+using WebLog.Core.Contracts.People.Queries.GetPersonById;
 
-namespace MiniPerson.Endpoints.API.People
+namespace WebLog.Endpoints.API.People
 {
     [Route("api/[controller]")]
     public class PersonQueryController : BaseController

@@ -1,0 +1,17 @@
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Core.Contracts.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\bin\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.csproj.CopyComplete
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\refint\WebLog.Infra.Data.Sql.Queries.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Queries.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Queries\obj\Debug\net7.0\ref\WebLog.Infra.Data.Sql.Queries.dll

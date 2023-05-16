@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "a+yaOxsnm+9evZ585VZ50Jt6QnRDpV2jG9MGYal/WFc=",
-  "Source": "MiniPerson.Endpoints.Shared",
-  "BasePath": "_content/MiniPerson.Endpoints.Shared",
+  "Hash": "4jPBI946gCYGkxE9X7yCAUYfux71++kMXryjEoQUvvg=",
+  "Source": "WebLog.Endpoints.Shared",
+  "BasePath": "_content/WebLog.Endpoints.Shared",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "MiniPerson.Endpoints.Shared\\wwwroot",
-      "Source": "MiniPerson.Endpoints.Shared",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
-      "BasePath": "_content/MiniPerson.Endpoints.Shared",
+      "Name": "WebLog.Endpoints.Shared\\wwwroot",
+      "Source": "WebLog.Endpoints.Shared",
+      "ContentRoot": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
+      "BasePath": "_content/WebLog.Endpoints.Shared",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\background.png",
-      "SourceId": "MiniPerson.Endpoints.Shared",
+      "Identity": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\background.png",
+      "SourceId": "WebLog.Endpoints.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
-      "BasePath": "_content/MiniPerson.Endpoints.Shared",
+      "ContentRoot": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
+      "BasePath": "_content/WebLog.Endpoints.Shared",
       "RelativePath": "background.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -34,11 +34,11 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "MiniPerson.Endpoints.Shared",
+      "Identity": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "WebLog.Endpoints.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
-      "BasePath": "_content/MiniPerson.Endpoints.Shared",
+      "ContentRoot": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\",
+      "BasePath": "_content/WebLog.Endpoints.Shared",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
       "AssetMode": "All",

@@ -1,9 +1,8 @@
-﻿
-using MiniPerson.Core.Contracts.Products.Queries.GetProducts;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
-using Zamin.Core.Contracts.Data.Queries;
+﻿using Zamin.Core.Contracts.Data.Queries;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
+using WebLog.Core.Contracts.Products.Queries.GetProducts;
 
-namespace MiniPerson.Core.Contracts.Products.Queries
+namespace WebLog.Core.Contracts.Products.Queries
 {
     public interface IProductQueryRepository
     {

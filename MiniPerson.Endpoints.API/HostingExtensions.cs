@@ -1,5 +1,4 @@
 using Serilog;
-using MiniPerson.Endpoints.API;
 using Zamin.EndPoints.Web;
 using Microsoft.EntityFrameworkCore;
 using Zamin.Core.ApplicationServices.Commands;
@@ -7,11 +6,11 @@ using Zamin.Core.ApplicationServices.Events;
 using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Extensions.DependencyInjection;
 using Zamin.Infra.Data.Sql.Commands.Interceptors;
-using MiniPerson.Infra.Data.Sql.Commands.Common;
-using MiniPerson.Infra.Data.Sql.Queries.Common;
-using MiniPerson.Endpoints.API.CustomDecorators;
+using WebLog.Endpoints.API.CustomDecorators;
+using WebLog.Infra.Data.Sql.Commands.Common;
+using WebLog.Infra.Data.Sql.Queries.Common;
 
-namespace MiniPerson.Endpoints.API
+namespace WebLog.Endpoints.API
 {
     public static class HostingExtensions
     {
@@ -26,7 +25,7 @@ namespace MiniPerson.Endpoints.API
                 c.TableName = "ParrotTranslations";
                 c.ReloadDataIntervalInMinuts = 1;
             });
-            builder.Services.AddZaminApiCore("Zamin", "MiniPerson");
+            builder.Services.AddZaminApiCore("Zamin", "WebLog");
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
 
@@ -35,21 +34,21 @@ namespace MiniPerson.Endpoints.API
             builder.Services.AddSingleton<CommandDispatcherDecorator, CustomCommandDecorator>();
             builder.Services.AddSingleton<QueryDispatcherDecorator, CustomQueryDecorator>();
             builder.Services.AddSingleton<EventDispatcherDecorator, CustomEventDecorator>();
-            
-            
+
+
             builder.Services.AddZaminWebUserInfoService(c => { c.DefaultUserId = "1"; }, true);
-            
+
             builder.Services.AddZaminAutoMapperProfiles(option =>
             {
-                option.AssmblyNamesForLoadProfiles = "MiniPerson";
+                option.AssmblyNamesForLoadProfiles = "WebLog";
             });
 
             builder.Services.AddZaminMicrosoftSerializer();
 
             builder.Services.AddZaminInMemoryCaching();
 
-            builder.Services.AddDbContext<MiniPersonCommandDbContext>(c => c.UseSqlServer(cnn).AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
-            builder.Services.AddDbContext<MiniPersonQueryDbContext>(c => c.UseSqlServer(cnn));
+            builder.Services.AddDbContext<WebLogCommandDbContext>(c => c.UseSqlServer(cnn).AddInterceptors(new SetPersianYeKeInterceptor(), new AddAuditDataInterceptor()));
+            builder.Services.AddDbContext<WebLogQueryDbContext>(c => c.UseSqlServer(cnn));
 
 
             builder.Services.AddSwaggerGen();

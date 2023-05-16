@@ -1,0 +1,17 @@
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.ApplicationService.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.ApplicationService.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.ApplicationService.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.Contracts.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\bin\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.csproj.CopyComplete
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\refint\WebLog.Core.ApplicationService.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\WebLog.Core.ApplicationService.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.ApplicationService\obj\Debug\net7.0\ref\WebLog.Core.ApplicationService.dll

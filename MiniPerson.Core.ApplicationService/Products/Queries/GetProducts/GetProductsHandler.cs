@@ -1,13 +1,12 @@
-﻿
-using MiniPerson.Core.Contracts.Products.Queries;
-using MiniPerson.Core.Contracts.Products.Queries.GetProducts;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
-using Zamin.Core.ApplicationServices.Queries;
+﻿using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Core.Contracts.ApplicationServices.Queries;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Utilities;
+using WebLog.Core.Contracts.Products.Queries;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
+using WebLog.Core.Contracts.Products.Queries.GetProducts;
 
-namespace MiniPerson.Core.ApplicationService.Products.Queries.GetAllProduct
+namespace WebLog.Core.ApplicationService.Products.Queries.GetProducts
 {
     public class GetProductsHandler : QueryHandler<GetProductsQuery, PagedData<ProductQr>>
     {

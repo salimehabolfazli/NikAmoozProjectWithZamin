@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {}
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
         "projectName": "MiniPerson.Core.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\obj\\",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,4 @@
-﻿
-namespace MiniPerson.Core.Contracts.People.Queries.GetPersonById
+﻿namespace WebLog.Core.Contracts.People.Queries.GetPersonById
 {
     public class PersonQr
     {
@@ -23,12 +22,12 @@ namespace MiniPerson.Core.Contracts.People.Queries.GetPersonById
         public Guid BusinessId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public PersonProductQr(long id,Guid businessId,string title,string description)
+        public PersonProductQr(long id, Guid businessId, string title, string description)
         {
-            Id= id;
-            BusinessId= businessId; 
-            Title= title;
-            Description= description;
+            Id = id;
+            BusinessId = businessId;
+            Title = title;
+            Description = description;
         }
         public PersonProductQr(long id)
         {

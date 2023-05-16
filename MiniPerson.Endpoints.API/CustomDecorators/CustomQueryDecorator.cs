@@ -1,7 +1,7 @@
 ﻿using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Core.Contracts.ApplicationServices.Queries;
 
-namespace MiniPerson.Endpoints.API.CustomDecorators;
+namespace WebLog.Endpoints.API.CustomDecorators;
 
 public class CustomQueryDecorator : QueryDispatcherDecorator
 {

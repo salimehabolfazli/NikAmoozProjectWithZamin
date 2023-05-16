@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using MiniPerson.Core.Contracts.Products.Commands.CreateProduct;
-using MiniPerson.Core.Contracts.Products.Commands.DeleteProduct;
-using MiniPerson.Core.Contracts.Products.Commands.UpdateProduct;
+using WebLog.Core.Contracts.Products.Commands.CreateProduct;
+using WebLog.Core.Contracts.Products.Commands.DeleteProduct;
+using WebLog.Core.Contracts.Products.Commands.UpdateProduct;
 using Zamin.EndPoints.Web.Controllers;
 
-namespace MiniPerson.Endpoints.API.Products
+namespace WebLog.Endpoints.API.Products
 {
     [Route("api/[controller]")]
     public class ProductCommandController : BaseController

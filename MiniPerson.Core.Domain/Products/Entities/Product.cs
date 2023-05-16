@@ -1,7 +1,7 @@
 ﻿using Zamin.Core.Domain.Entities;
 using Zamin.Core.Domain.Toolkits.ValueObjects;
 
-namespace MiniPerson.Core.Domain.People.Entities
+namespace WebLog.Core.Domain.Products.Entities
 {
     public class Product : AggregateRoot
     {

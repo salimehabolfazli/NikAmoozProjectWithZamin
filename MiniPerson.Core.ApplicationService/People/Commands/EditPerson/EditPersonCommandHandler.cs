@@ -1,18 +1,18 @@
-﻿using MiniPerson.Core.Contracts.People.Commands;
-using MiniPerson.Core.Contracts.People.Commands.EditPerson;
-using MiniPerson.Core.Domain.People.Entities;
-using MiniPerson.Core.Domain.People.ValueObjects;
+﻿using WebLog.Core.Domain.People.Entities;
+using WebLog.Core.Domain.People.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebLog.Core.Contracts.People.Commands;
+using WebLog.Core.Contracts.People.Commands.EditPerson;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Common;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.EditPerson
+namespace WebLog.Core.ApplicationService.People.Commands.EditPerson
 {
     internal class EditPersonCommandHandler : CommandHandler<EditPersonCommand, long>
     {
@@ -34,7 +34,7 @@ namespace MiniPerson.Core.ApplicationService.People.Commands.EditPerson
             person.UpdatePerson(person.FirstName, person.LastName);
             foreach (var phonenumber in command.PhoneNumberList)
             {
-                if(phonenumber.IsDeleted)
+                if (phonenumber.IsDeleted)
                 {
                     person.RemovePersonPhoneNumber(new PhoneNumber(phonenumber.Value));
                 }

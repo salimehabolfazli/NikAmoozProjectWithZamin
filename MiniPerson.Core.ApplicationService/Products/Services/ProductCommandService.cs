@@ -1,6 +1,4 @@
-﻿
-
-namespace GymProducts.Core.ApplicationServices.Products.Services
+﻿namespace WebLog.Core.ApplicationService.Products.Services
 {
     public class ProductCommandService
     {

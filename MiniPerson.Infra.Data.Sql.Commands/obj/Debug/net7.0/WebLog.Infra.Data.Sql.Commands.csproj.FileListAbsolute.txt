@@ -1,0 +1,17 @@
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Core.Contracts.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\bin\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.csproj.CopyComplete
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\refint\WebLog.Infra.Data.Sql.Commands.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\WebLog.Infra.Data.Sql.Commands.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Infra.Data.Sql.Commands\obj\Debug\net7.0\ref\WebLog.Infra.Data.Sql.Commands.dll

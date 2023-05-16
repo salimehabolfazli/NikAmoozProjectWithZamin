@@ -1,9 +1,8 @@
-﻿using GymProducts.Core.Domain;
-using MiniPerson.Core.Domain.People.ValueObjects;
+﻿using WebLog.Core.Domain.People.ValueObjects;
 using Zamin.Core.Domain.Entities;
 using Zamin.Core.Domain.Exceptions;
 
-namespace MiniPerson.Core.Domain.People.Entities
+namespace WebLog.Core.Domain.People.Entities
 {
     public class Person : AggregateRoot
     {

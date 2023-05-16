@@ -1,0 +1,15 @@
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\bin\Debug\net7.0\WebLog.Core.Contracts.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\bin\Debug\net7.0\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\bin\Debug\net7.0\WebLog.Core.Contracts.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\bin\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\bin\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.csproj.CopyComplete
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\refint\WebLog.Core.Contracts.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\WebLog.Core.Contracts.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Contracts\obj\Debug\net7.0\ref\WebLog.Core.Contracts.dll

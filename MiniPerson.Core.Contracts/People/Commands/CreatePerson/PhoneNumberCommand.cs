@@ -1,6 +1,4 @@
-﻿
-
-namespace MiniPerson.Core.Contracts.People.Commands.CreatePerson
+﻿namespace WebLog.Core.Contracts.People.Commands.CreatePerson
 {
     public class PhoneNumberCommand
     {

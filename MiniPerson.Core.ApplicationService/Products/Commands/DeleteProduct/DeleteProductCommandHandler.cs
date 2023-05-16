@@ -1,12 +1,12 @@
 ﻿using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Utilities;
-using MiniPerson.Core.Contracts.Products.Commands;
-using MiniPerson.Core.Contracts.Products.Commands.DeleteProduct;
-using MiniPerson.Core.Contracts.People.Commands;
-using MiniPerson.Core.Domain.People.Entities;
+using WebLog.Core.Contracts.People.Commands;
+using WebLog.Core.Domain.People.Entities;
+using WebLog.Core.Contracts.Products.Commands;
+using WebLog.Core.Contracts.Products.Commands.DeleteProduct;
 
-namespace MiniPerson.Core.ApplicationService.Products.Commands.DeleteProduct
+namespace WebLog.Core.ApplicationService.Products.Commands.DeleteProduct
 {
     public class DeleteProductCommandHandler : CommandHandler<DeleteProductCommand, bool>
     {

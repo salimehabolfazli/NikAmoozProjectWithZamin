@@ -22,3 +22,15 @@ C:\Users\User\source\repos\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\D
 C:\Users\User\source\repos\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\refint\MiniPerson.Core.Domain.dll
 C:\Users\User\source\repos\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.pdb
 C:\Users\User\source\repos\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\ref\MiniPerson.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\MiniPerson.Core.Domain.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\MiniPerson.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\MiniPerson.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\refint\MiniPerson.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\MiniPerson.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\ref\MiniPerson.Core.Domain.dll

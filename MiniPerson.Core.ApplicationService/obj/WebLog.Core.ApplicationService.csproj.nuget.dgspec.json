@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj",
+        "projectName": "WebLog.Core.ApplicationService",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
+              },
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Zamin.Core.ApplicationServices": {
+              "target": "Package",
+              "version": "[7.0.0-beta.1, )"
+            },
+            "Zamin.Core.Domain.Toolkits": {
+              "target": "Package",
+              "version": "[7.0.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj",
+        "projectName": "WebLog.Core.Contracts",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+                "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Zamin.Core.Contracts": {
+              "target": "Package",
+              "version": "[7.0.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj",
+        "projectName": "WebLog.Core.Domain",
+        "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Zamin.Core.Domain": {
+              "target": "Package",
+              "version": "[7.0.0-beta.1, )"
+            },
+            "Zamin.Core.Domain.Toolkits": {
+              "target": "Package",
+              "version": "[7.0.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

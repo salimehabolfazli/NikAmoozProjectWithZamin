@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Zamin.Core.Domain.Exceptions;
 using Zamin.Core.Domain.ValueObjects;
 
-namespace MiniPerson.Core.Domain.People.ValueObjects;
+namespace WebLog.Core.Domain.People.ValueObjects;
 public class PhoneNumber : BaseValueObject<PhoneNumber>
 {
     #region Properties

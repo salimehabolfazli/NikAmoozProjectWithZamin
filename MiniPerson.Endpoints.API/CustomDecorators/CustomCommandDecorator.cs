@@ -1,7 +1,7 @@
 ﻿using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 
-namespace MiniPerson.Endpoints.API.CustomDecorators;
+namespace WebLog.Endpoints.API.CustomDecorators;
 
 public class CustomCommandDecorator : CommandDispatcherDecorator
 {

@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.Contracts.ApplicationServices.Commands;
 
-namespace MiniPerson.Core.Contracts.Products.Commands.UpdateProduct
+namespace WebLog.Core.Contracts.Products.Commands.UpdateProduct
 {
     public class UpdateProductCommand : ICommand<long>
     {

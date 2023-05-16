@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MiniPerson.Infra.Data.Sql.Queries.Common
+namespace WebLog.Infra.Data.Sql.Queries.Common
 {
     public partial class OutBoxEventItem
     {

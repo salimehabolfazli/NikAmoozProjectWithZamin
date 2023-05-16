@@ -1,14 +1,12 @@
-﻿
-
-using MiniPerson.Core.Contracts.People.Commands;
-using MiniPerson.Core.Contracts.People.CreatePersonPhoneNumber;
-using MiniPerson.Core.Domain.People.Entities;
-using MiniPerson.Core.Domain.People.ValueObjects;
+﻿using WebLog.Core.Domain.People.ValueObjects;
+using WebLog.Core.Contracts.People.Commands;
+using WebLog.Core.Contracts.People.Commands.CreatePersonPhoneNumber;
+using WebLog.Core.Domain.People.Entities;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.CreatePersonPhoneNumber
+namespace WebLog.Core.ApplicationService.People.Commands.CreatePersonPhoneNumber
 {
     public class CreatePersonPhoneNumberCommandHandler : CommandHandler<CreatePersonPhoneNumberCommand, long>
     {
@@ -24,7 +22,7 @@ namespace MiniPerson.Core.ApplicationService.People.Commands.CreatePersonPhoneNu
         public override async Task<CommandResult<long>> Handle(CreatePersonPhoneNumberCommand command)
         {
             Person person = await _personCommandRepository.GetAsync(command.PersonId);
-            PersonPhoneNumber phoneNumber =person.AddPersonPhoneNumber(new PhoneNumber(command.Value));
+            PersonPhoneNumber phoneNumber = person.AddPersonPhoneNumber(new PhoneNumber(command.Value));
             await _personCommandRepository.CommitAsync();
             return Ok(phoneNumber.Id);
         }

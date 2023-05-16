@@ -1,12 +1,10 @@
-﻿
-
-using MiniPerson.Core.Contracts.Products.Queries;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
+﻿using WebLog.Core.Contracts.Products.Queries;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
 using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Core.Contracts.ApplicationServices.Queries;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.Products.Queries.GetProductById
+namespace WebLog.Core.ApplicationService.Products.Queries.GetProductByBusinessId
 {
     class GetProductByIdHandler : QueryHandler<GetProductByIdQuery, ProductQr>
     {

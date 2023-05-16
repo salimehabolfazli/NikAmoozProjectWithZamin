@@ -1,0 +1,12 @@
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\WebLog.Core.Domain.deps.json
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\bin\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.csproj.AssemblyReference.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.AssemblyInfoInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.AssemblyInfo.cs
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.csproj.CoreCompileInputs.cache
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\refint\WebLog.Core.Domain.dll
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\WebLog.Core.Domain.pdb
+F:\Projects\NikAmoozProjectWithZamin\MiniPerson.Core.Domain\obj\Debug\net7.0\ref\WebLog.Core.Domain.dll

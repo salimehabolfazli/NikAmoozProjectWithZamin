@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "FE+1I2dSzNsPgfdRZyMJWcjrn2Mfgb1SgMD05BAZ/EQ=",
-  "Source": "MiniPerson.Endpoints.API",
-  "BasePath": "_content/MiniPerson.Endpoints.API",
+  "Hash": "Pyn4Qvmld4bDqJwETLxwWxWeIdqft59yBYnlPptHF5Y=",
+  "Source": "WebLog.Endpoints.API",
+  "BasePath": "_content/WebLog.Endpoints.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

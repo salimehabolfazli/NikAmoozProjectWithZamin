@@ -9,23 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infra", "2-Infra", "{BEDD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Endpoints", "3-Endpoints", "{A9AB5A1A-1009-485F-B919-BDDD0E73D5D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Endpoints.API", "MiniPerson.Endpoints.API\MiniPerson.Endpoints.API.csproj", "{2EB36F16-DBD2-4292-8CCD-AF4BE21DFC6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Endpoints.API", "MiniPerson.Endpoints.API\WebLog.Endpoints.API.csproj", "{2EB36F16-DBD2-4292-8CCD-AF4BE21DFC6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Core.Domain", "MiniPerson.Core.Domain\MiniPerson.Core.Domain.csproj", "{5FD6DC4F-6E9D-4E6C-98CF-3F6F9BD27BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Core.Domain", "MiniPerson.Core.Domain\WebLog.Core.Domain.csproj", "{5FD6DC4F-6E9D-4E6C-98CF-3F6F9BD27BDB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Core.Contracts", "MiniPerson.Core.Contracts\MiniPerson.Core.Contracts.csproj", "{F5791405-5F27-4F43-8C06-46C2C5A85D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Core.Contracts", "MiniPerson.Core.Contracts\WebLog.Core.Contracts.csproj", "{F5791405-5F27-4F43-8C06-46C2C5A85D1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Core.ApplicationService", "MiniPerson.Core.ApplicationService\MiniPerson.Core.ApplicationService.csproj", "{3B17D7F9-C6A1-4A9D-AD33-1CF0DF8B9D88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Core.ApplicationService", "MiniPerson.Core.ApplicationService\WebLog.Core.ApplicationService.csproj", "{3B17D7F9-C6A1-4A9D-AD33-1CF0DF8B9D88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9DCAA241-CDC5-43D9-8241-3DDCF6EFB2B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Infra.Data.Sql.Commands", "MiniPerson.Infra.Data.Sql.Commands\MiniPerson.Infra.Data.Sql.Commands.csproj", "{644050B1-F6E1-4589-8D4E-97D9471B34B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Infra.Data.Sql.Commands", "MiniPerson.Infra.Data.Sql.Commands\WebLog.Infra.Data.Sql.Commands.csproj", "{644050B1-F6E1-4589-8D4E-97D9471B34B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.Infra.Data.Sql.Queries", "MiniPerson.Infra.Data.Sql.Queries\MiniPerson.Infra.Data.Sql.Queries.csproj", "{22C74CBD-D94D-4A8F-94FB-E9D515E72157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Infra.Data.Sql.Queries", "MiniPerson.Infra.Data.Sql.Queries\WebLog.Infra.Data.Sql.Queries.csproj", "{22C74CBD-D94D-4A8F-94FB-E9D515E72157}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniPerson.EndPoints.UI", "MiniPerson.EndPoints.UI\MiniPerson.EndPoints.UI.csproj", "{ACABEEBF-BE1F-4ACB-8B00-EBB0CDC09B44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.EndPoints.UI", "MiniPerson.EndPoints.UI\WebLog.EndPoints.UI.csproj", "{ACABEEBF-BE1F-4ACB-8B00-EBB0CDC09B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniPerson.Endpoints.Shared", "MiniPerson.Endpoints.Shared\MiniPerson.Endpoints.Shared.csproj", "{139F80B8-5A54-470E-85C5-66F43E617B54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLog.Endpoints.Shared", "MiniPerson.Endpoints.Shared\WebLog.Endpoints.Shared.csproj", "{139F80B8-5A54-470E-85C5-66F43E617B54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

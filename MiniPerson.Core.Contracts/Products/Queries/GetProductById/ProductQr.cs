@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniPerson.Core.Contracts.Products.Queries.GetProductById
+namespace WebLog.Core.Contracts.Products.Queries.GetProductById
 {
     public class ProductQr
     {

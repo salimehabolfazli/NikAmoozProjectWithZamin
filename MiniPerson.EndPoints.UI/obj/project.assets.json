@@ -495,17 +495,17 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "MiniPerson.Endpoints.Shared/1.0.0": {
+      "WebLog.Endpoints.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Endpoints.Shared.dll": {}
+          "bin/placeholder/WebLog.Endpoints.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Endpoints.Shared.dll": {}
+          "bin/placeholder/WebLog.Endpoints.Shared.dll": {}
         }
       }
     },
@@ -997,17 +997,17 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "MiniPerson.Endpoints.Shared/1.0.0": {
+      "WebLog.Endpoints.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Endpoints.Shared.dll": {}
+          "bin/placeholder/WebLog.Endpoints.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Endpoints.Shared.dll": {}
+          "bin/placeholder/WebLog.Endpoints.Shared.dll": {}
         }
       }
     }
@@ -1884,34 +1884,34 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MiniPerson.Endpoints.Shared/1.0.0": {
+    "WebLog.Endpoints.Shared/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Endpoints.Shared/MiniPerson.Endpoints.Shared.csproj",
-      "msbuildProject": "../MiniPerson.Endpoints.Shared/MiniPerson.Endpoints.Shared.csproj"
+      "path": "../MiniPerson.Endpoints.Shared/WebLog.Endpoints.Shared.csproj",
+      "msbuildProject": "../MiniPerson.Endpoints.Shared/WebLog.Endpoints.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.0",
-      "MiniPerson.Endpoints.Shared >= 1.0.0",
-      "System.Net.Http.Json >= 7.0.0"
+      "System.Net.Http.Json >= 7.0.0",
+      "WebLog.Endpoints.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\WindoW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\MiniPerson.EndPoints.UI.csproj",
-      "projectName": "MiniPerson.EndPoints.UI",
-      "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\MiniPerson.EndPoints.UI.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\obj\\",
+      "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\WebLog.EndPoints.UI.csproj",
+      "projectName": "WebLog.EndPoints.UI",
+      "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\WebLog.EndPoints.UI.csproj",
+      "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.EndPoints.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1925,8 +1925,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\MiniPerson.Endpoints.Shared.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\MiniPerson.Endpoints.Shared.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\WebLog.Endpoints.Shared.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\WebLog.Endpoints.Shared.csproj"
             }
           }
         }
@@ -1969,7 +1969,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.1, 7.0.1]"
+            "version": "[7.0.2, 7.0.2]"
           }
         ],
         "frameworkReferences": {
@@ -1977,7 +1977,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -1,7 +1,7 @@
-﻿using MiniPerson.Core.Domain.People.Entities;
+﻿using WebLog.Core.Domain.Products.Entities;
 using Zamin.Core.Contracts.Data.Commands;
 
-namespace MiniPerson.Core.Contracts.Products.Commands
+namespace WebLog.Core.Contracts.Products.Commands
 {
     public interface IProductCommandRepository : ICommandRepository<Product>
     {

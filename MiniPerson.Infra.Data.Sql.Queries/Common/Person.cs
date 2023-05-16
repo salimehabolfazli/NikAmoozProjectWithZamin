@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MiniPerson.Infra.Data.Sql.Queries.Common
+namespace WebLog.Infra.Data.Sql.Queries.Common
 {
     public partial class Person
     {
@@ -32,7 +32,7 @@ namespace MiniPerson.Infra.Data.Sql.Queries.Common
         public long Id { get; set; }
         public Guid BusinessId { get; set; }
         public long ProductId { get; set; }
-    
+
 
     }
 }

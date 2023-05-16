@@ -2923,37 +2923,37 @@
           "lib/net7.0/Zamin.Utilities.SerilogRegistration.dll": {}
         }
       },
-      "MiniPerson.Core.ApplicationService/1.0.0": {
+      "WebLog.Core.ApplicationService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MiniPerson.Core.Contracts": "1.0.0",
-          "MiniPerson.Core.Domain": "1.0.0",
+          "WebLog.Core.Contracts": "1.0.0",
+          "WebLog.Core.Domain": "1.0.0",
           "Zamin.Core.ApplicationServices": "7.0.0-beta.1",
           "Zamin.Core.Domain.Toolkits": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Core.ApplicationService.dll": {}
+          "bin/placeholder/WebLog.Core.ApplicationService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Core.ApplicationService.dll": {}
+          "bin/placeholder/WebLog.Core.ApplicationService.dll": {}
         }
       },
-      "MiniPerson.Core.Contracts/1.0.0": {
+      "WebLog.Core.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MiniPerson.Core.Domain": "1.0.0",
+          "WebLog.Core.Domain": "1.0.0",
           "Zamin.Core.Contracts": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Core.Contracts.dll": {}
+          "bin/placeholder/WebLog.Core.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Core.Contracts.dll": {}
+          "bin/placeholder/WebLog.Core.Contracts.dll": {}
         }
       },
-      "MiniPerson.Core.Domain/1.0.0": {
+      "WebLog.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -2961,41 +2961,41 @@
           "Zamin.Core.Domain.Toolkits": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Core.Domain.dll": {}
+          "bin/placeholder/WebLog.Core.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Core.Domain.dll": {}
+          "bin/placeholder/WebLog.Core.Domain.dll": {}
         }
       },
-      "MiniPerson.Infra.Data.Sql.Commands/1.0.0": {
+      "WebLog.Infra.Data.Sql.Commands/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MiniPerson.Core.Contracts": "1.0.0",
-          "MiniPerson.Core.Domain": "1.0.0",
+          "WebLog.Core.Contracts": "1.0.0",
+          "WebLog.Core.Domain": "1.0.0",
           "Zamin.Extensions.Events.Outbox.Dal.EF": "7.0.0-beta.1",
           "Zamin.Infra.Data.Sql.Commands": "7.0.0-beta.1",
           "Zamin.Utilities.SerilogRegistration": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Infra.Data.Sql.Commands.dll": {}
+          "bin/placeholder/WebLog.Infra.Data.Sql.Commands.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Infra.Data.Sql.Commands.dll": {}
+          "bin/placeholder/WebLog.Infra.Data.Sql.Commands.dll": {}
         }
       },
-      "MiniPerson.Infra.Data.Sql.Queries/1.0.0": {
+      "WebLog.Infra.Data.Sql.Queries/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MiniPerson.Core.Contracts": "1.0.0",
+          "WebLog.Core.Contracts": "1.0.0",
           "Zamin.Infra.Data.Sql.Queries": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Infra.Data.Sql.Queries.dll": {}
+          "bin/placeholder/WebLog.Infra.Data.Sql.Queries.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Infra.Data.Sql.Queries.dll": {}
+          "bin/placeholder/WebLog.Infra.Data.Sql.Queries.dll": {}
         }
       }
     }
@@ -7654,42 +7654,42 @@
         "zamin.utilities.serilogregistration.nuspec"
       ]
     },
-    "MiniPerson.Core.ApplicationService/1.0.0": {
+    "WebLog.Core.ApplicationService/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Core.ApplicationService/MiniPerson.Core.ApplicationService.csproj",
-      "msbuildProject": "../MiniPerson.Core.ApplicationService/MiniPerson.Core.ApplicationService.csproj"
+      "path": "../MiniPerson.Core.ApplicationService/WebLog.Core.ApplicationService.csproj",
+      "msbuildProject": "../MiniPerson.Core.ApplicationService/WebLog.Core.ApplicationService.csproj"
     },
-    "MiniPerson.Core.Contracts/1.0.0": {
+    "WebLog.Core.Contracts/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Core.Contracts/MiniPerson.Core.Contracts.csproj",
-      "msbuildProject": "../MiniPerson.Core.Contracts/MiniPerson.Core.Contracts.csproj"
+      "path": "../MiniPerson.Core.Contracts/WebLog.Core.Contracts.csproj",
+      "msbuildProject": "../MiniPerson.Core.Contracts/WebLog.Core.Contracts.csproj"
     },
-    "MiniPerson.Core.Domain/1.0.0": {
+    "WebLog.Core.Domain/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Core.Domain/MiniPerson.Core.Domain.csproj",
-      "msbuildProject": "../MiniPerson.Core.Domain/MiniPerson.Core.Domain.csproj"
+      "path": "../MiniPerson.Core.Domain/WebLog.Core.Domain.csproj",
+      "msbuildProject": "../MiniPerson.Core.Domain/WebLog.Core.Domain.csproj"
     },
-    "MiniPerson.Infra.Data.Sql.Commands/1.0.0": {
+    "WebLog.Infra.Data.Sql.Commands/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Infra.Data.Sql.Commands/MiniPerson.Infra.Data.Sql.Commands.csproj",
-      "msbuildProject": "../MiniPerson.Infra.Data.Sql.Commands/MiniPerson.Infra.Data.Sql.Commands.csproj"
+      "path": "../MiniPerson.Infra.Data.Sql.Commands/WebLog.Infra.Data.Sql.Commands.csproj",
+      "msbuildProject": "../MiniPerson.Infra.Data.Sql.Commands/WebLog.Infra.Data.Sql.Commands.csproj"
     },
-    "MiniPerson.Infra.Data.Sql.Queries/1.0.0": {
+    "WebLog.Infra.Data.Sql.Queries/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Infra.Data.Sql.Queries/MiniPerson.Infra.Data.Sql.Queries.csproj",
-      "msbuildProject": "../MiniPerson.Infra.Data.Sql.Queries/MiniPerson.Infra.Data.Sql.Queries.csproj"
+      "path": "../MiniPerson.Infra.Data.Sql.Queries/WebLog.Infra.Data.Sql.Queries.csproj",
+      "msbuildProject": "../MiniPerson.Infra.Data.Sql.Queries/WebLog.Infra.Data.Sql.Queries.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1",
-      "MiniPerson.Core.ApplicationService >= 1.0.0",
-      "MiniPerson.Core.Contracts >= 1.0.0",
-      "MiniPerson.Core.Domain >= 1.0.0",
-      "MiniPerson.Infra.Data.Sql.Commands >= 1.0.0",
-      "MiniPerson.Infra.Data.Sql.Queries >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Swashbuckle.AspNetCore.Annotations >= 6.4.0",
+      "WebLog.Core.ApplicationService >= 1.0.0",
+      "WebLog.Core.Contracts >= 1.0.0",
+      "WebLog.Core.Domain >= 1.0.0",
+      "WebLog.Infra.Data.Sql.Commands >= 1.0.0",
+      "WebLog.Infra.Data.Sql.Queries >= 1.0.0",
       "Zamin.EndPoints.Web >= 7.0.0-beta.1",
       "Zamin.Extensions.Caching.InMemory >= 7.0.0-beta.1",
       "Zamin.Extensions.Events.PollingPublisher >= 7.0.0-beta.1",
@@ -7707,19 +7707,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\WindoW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
-      "projectName": "MiniPerson.Endpoints.API",
-      "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\MiniPerson.Endpoints.API.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\obj\\",
+      "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\WebLog.Endpoints.API.csproj",
+      "projectName": "WebLog.Endpoints.API",
+      "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\WebLog.Endpoints.API.csproj",
+      "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7733,20 +7733,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\MiniPerson.Core.ApplicationService.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.ApplicationService\\WebLog.Core.ApplicationService.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\MiniPerson.Core.Domain.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Domain\\WebLog.Core.Domain.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\MiniPerson.Infra.Data.Sql.Commands.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Commands\\WebLog.Infra.Data.Sql.Commands.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj"
             }
           }
         }
@@ -7851,7 +7851,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

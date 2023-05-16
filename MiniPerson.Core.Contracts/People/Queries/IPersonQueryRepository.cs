@@ -1,8 +1,8 @@
-﻿using MiniPerson.Core.Contracts.People.Queries.GetPersonById;
-using MiniPerson.Core.Contracts.People.Queries.GetPeople;
-using Zamin.Core.Contracts.Data.Queries;
+﻿using Zamin.Core.Contracts.Data.Queries;
+using WebLog.Core.Contracts.People.Queries.GetPeople;
+using WebLog.Core.Contracts.People.Queries.GetPersonById;
 
-namespace MiniPerson.Core.Contracts.People.Queries
+namespace WebLog.Core.Contracts.People.Queries
 {
     public interface IPersonQueryRepository
     {

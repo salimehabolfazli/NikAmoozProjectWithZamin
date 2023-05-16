@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.Domain.Entities;
 
-namespace MiniPerson.Core.Domain.People.Entities
+namespace WebLog.Core.Domain.People.Entities
 {
     public class PersonProduct : Entity
     {
@@ -15,7 +15,7 @@ namespace MiniPerson.Core.Domain.People.Entities
         {
 
         }
-        public PersonProduct(long personId, long productId, bool isActive=true)
+        public PersonProduct(long personId, long productId, bool isActive = true)
         {
             PersonId = personId;
             ProductId = productId;
@@ -24,7 +24,7 @@ namespace MiniPerson.Core.Domain.People.Entities
 
         public void DeActive()
         {
-            IsActive= false;
+            IsActive = false;
         }
         #endregion
     }

@@ -1,4 +1,4 @@
-﻿namespace GymProducts.Core.Domain
+﻿namespace WebLog.Core.Domain
 {
     public class PersonResource
     {

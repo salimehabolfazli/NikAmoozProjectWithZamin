@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MiniPerson.Infra.Data.Sql.Commands.Common;
+using WebLog.Infra.Data.Sql.Commands.Common;
 
 #nullable disable
 
 namespace MiniPerson.Infra.Data.Sql.Commands.Migrations
 {
-    [DbContext(typeof(MiniPersonCommandDbContext))]
+    [DbContext(typeof(WebLogCommandDbContext))]
     partial class MiniPersonCommandDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

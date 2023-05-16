@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using GymProducts.Core.Domain;
-using MiniPerson.Core.Contracts.People.Commands.DeletePerson;
+using WebLog.Core.Contracts.People.Commands.DeletePerson;
+using WebLog.Core.Domain;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.DeletePerson
+namespace WebLog.Core.ApplicationService.People.Commands.DeletePerson
 {
     public class DeletePersonCommandValidator : AbstractValidator<DeletePersonCommand>
     {

@@ -1,15 +1,15 @@
-﻿using MiniPerson.Core.Contracts.People.Queries;
-using MiniPerson.Core.Contracts.People.Queries.GetPeople;
-using MiniPerson.Core.Contracts.People.Queries.GetPersonById;
-using MiniPerson.Core.Contracts.Products.Queries;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
+﻿using WebLog.Core.Contracts.People.Queries;
+using WebLog.Core.Contracts.People.Queries.GetPeople;
+using WebLog.Core.Contracts.People.Queries.GetPersonById;
+using WebLog.Core.Contracts.Products.Queries;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
 using Zamin.Core.ApplicationServices.Queries;
 using Zamin.Core.Contracts.ApplicationServices.Queries;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Core.Domain.Exceptions;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.People.Queries.GetPeople;
+namespace WebLog.Core.ApplicationService.People.Queries.GetPeople;
 
 public class GetPeopleHandler : QueryHandler<GetPeopleQuery, PagedData<PersonQr>>
 {

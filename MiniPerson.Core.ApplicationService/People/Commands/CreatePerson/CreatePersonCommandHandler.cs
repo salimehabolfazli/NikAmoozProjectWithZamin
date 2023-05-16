@@ -1,12 +1,12 @@
-﻿using MiniPerson.Core.Contracts.People.Commands;
-using MiniPerson.Core.Contracts.People.Commands.CreatePerson;
-using MiniPerson.Core.Domain.People.Entities;
-using MiniPerson.Core.Domain.People.ValueObjects;
+﻿using WebLog.Core.Domain.People.Entities;
+using WebLog.Core.Domain.People.ValueObjects;
+using WebLog.Core.Contracts.People.Commands;
+using WebLog.Core.Contracts.People.Commands.CreatePerson;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Utilities;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.CreatePerson
+namespace WebLog.Core.ApplicationService.People.Commands.CreatePerson
 {
     public class CreatePersonCommandHandler : CommandHandler<CreatePersonCommand, long>
     {

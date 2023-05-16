@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebLog.EndPoints.UI.props" />
+</Project>

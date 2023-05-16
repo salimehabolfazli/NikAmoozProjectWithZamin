@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace MiniPerson.Endpoints.Shared.Modals.Components
+namespace WebLog.Endpoints.Shared.Modals.Components
 {
     public partial class Modal : ComponentBase
     {

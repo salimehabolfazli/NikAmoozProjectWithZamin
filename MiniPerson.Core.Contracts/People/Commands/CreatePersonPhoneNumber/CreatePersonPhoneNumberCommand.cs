@@ -1,6 +1,6 @@
 ﻿using Zamin.Core.Contracts.ApplicationServices.Commands;
 
-namespace MiniPerson.Core.Contracts.People.CreatePersonPhoneNumber
+namespace WebLog.Core.Contracts.People.Commands.CreatePersonPhoneNumber
 {
     public class CreatePersonPhoneNumberCommand : ICommand<long>
     {

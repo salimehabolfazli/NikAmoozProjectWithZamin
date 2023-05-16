@@ -1,16 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MiniPerson.Core.Contracts.People.Queries;
-using MiniPerson.Core.Contracts.People.Queries.GetPersonById;
-using MiniPerson.Core.Contracts.People.Queries.GetPeople;
-using MiniPerson.Infra.Data.Sql.Queries.Common;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Infra.Data.Sql.Queries;
+using WebLog.Core.Contracts.People.Queries.GetPeople;
+using WebLog.Core.Contracts.People.Queries.GetPersonById;
+using WebLog.Core.Contracts.People.Queries;
+using WebLog.Infra.Data.Sql.Queries.Common;
 
-namespace MiniPerson.Infra.Data.Sql.Queries.People
+namespace WebLog.Infra.Data.Sql.Queries.People
 {
-    public class PersonQueryRepository : BaseQueryRepository<MiniPersonQueryDbContext>, IPersonQueryRepository
+    public class PersonQueryRepository : BaseQueryRepository<WebLogQueryDbContext>, IPersonQueryRepository
     {
-        public PersonQueryRepository(MiniPersonQueryDbContext dbContext) : base(dbContext)
+        public PersonQueryRepository(WebLogQueryDbContext dbContext) : base(dbContext)
         {
         }
 
@@ -36,8 +36,8 @@ namespace MiniPerson.Infra.Data.Sql.Queries.People
                 LastName = c.LastName,
                 PhoneNumbers = c.PhoneNumbers.Select(c => new PhoneNumberQr
                 {
-                    Id=c.Id,
-                    BusinessId=c.BusinessId,
+                    Id = c.Id,
+                    BusinessId = c.BusinessId,
                     Value = c.PhoneNumber,
                 }).ToList(),
                 Products = c.Products.Select(c => new PersonProductQr(c.ProductId)).ToList(),
@@ -52,7 +52,7 @@ namespace MiniPerson.Infra.Data.Sql.Queries.People
                         .Take(personList.PageSize)
                         .Select(c => new PersonQr
                         {
-                            BusinessId=c.BusinessId,
+                            BusinessId = c.BusinessId,
                             FirstName = c.FirstName,
                             LastName = c.LastName,
                             Id = c.Id,
@@ -72,7 +72,7 @@ namespace MiniPerson.Infra.Data.Sql.Queries.People
             }
 
             return result;
-           
+
         }
     }
 }

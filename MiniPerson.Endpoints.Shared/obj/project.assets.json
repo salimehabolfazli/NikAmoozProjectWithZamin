@@ -543,19 +543,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\WindoW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\MiniPerson.Endpoints.Shared.csproj",
-      "projectName": "MiniPerson.Endpoints.Shared",
-      "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\MiniPerson.Endpoints.Shared.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\obj\\",
+      "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\WebLog.Endpoints.Shared.csproj",
+      "projectName": "WebLog.Endpoints.Shared",
+      "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\WebLog.Endpoints.Shared.csproj",
+      "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -602,7 +602,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

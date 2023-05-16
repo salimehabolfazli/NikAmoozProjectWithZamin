@@ -1,9 +1,9 @@
-﻿using MiniPerson.Core.Contracts.People.Commands.CreatePerson;
+﻿using WebLog.Core.Contracts.People.Commands.CreatePerson;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 
-namespace MiniPerson.Core.Contracts.People.Commands.EditPerson
+namespace WebLog.Core.Contracts.People.Commands.EditPerson
 {
-    public class EditPersonCommand: ICommand<long>
+    public class EditPersonCommand : ICommand<long>
     {
         public long PersonId { get; set; }
         public string FirstName { get; set; }

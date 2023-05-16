@@ -1,7 +1,7 @@
-﻿using MiniPerson.Core.Domain.People.ValueObjects;
+﻿using WebLog.Core.Domain.People.ValueObjects;
 using Zamin.Core.Domain.Entities;
 
-namespace MiniPerson.Core.Domain.People.Entities
+namespace WebLog.Core.Domain.People.Entities
 {
     public class PersonPhoneNumber : Entity
     {
@@ -14,13 +14,13 @@ namespace MiniPerson.Core.Domain.People.Entities
         private PersonPhoneNumber() { }
         public PersonPhoneNumber(long personId, PhoneNumber phoneNumber)
         {
-            this.PersonId = personId;
-            this.PhoneNumber = phoneNumber;
+            PersonId = personId;
+            PhoneNumber = phoneNumber;
         }
         public PersonPhoneNumber(string phoneNumber)
         {
-            this.PhoneNumber = new PhoneNumber(phoneNumber);
-            this.PersonId = PersonId;
+            PhoneNumber = new PhoneNumber(phoneNumber);
+            PersonId = PersonId;
         }
         #endregion
     }

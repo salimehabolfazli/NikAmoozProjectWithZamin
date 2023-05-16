@@ -1192,21 +1192,21 @@
           "lib/net7.0/Zamin.Utilities.dll": {}
         }
       },
-      "MiniPerson.Core.Contracts/1.0.0": {
+      "WebLog.Core.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MiniPerson.Core.Domain": "1.0.0",
+          "WebLog.Core.Domain": "1.0.0",
           "Zamin.Core.Contracts": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Core.Contracts.dll": {}
+          "bin/placeholder/WebLog.Core.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Core.Contracts.dll": {}
+          "bin/placeholder/WebLog.Core.Contracts.dll": {}
         }
       },
-      "MiniPerson.Core.Domain/1.0.0": {
+      "WebLog.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1214,10 +1214,10 @@
           "Zamin.Core.Domain.Toolkits": "7.0.0-beta.1"
         },
         "compile": {
-          "bin/placeholder/MiniPerson.Core.Domain.dll": {}
+          "bin/placeholder/WebLog.Core.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MiniPerson.Core.Domain.dll": {}
+          "bin/placeholder/WebLog.Core.Domain.dll": {}
         }
       }
     }
@@ -3539,37 +3539,37 @@
         "zamin.utilities.nuspec"
       ]
     },
-    "MiniPerson.Core.Contracts/1.0.0": {
+    "WebLog.Core.Contracts/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Core.Contracts/MiniPerson.Core.Contracts.csproj",
-      "msbuildProject": "../MiniPerson.Core.Contracts/MiniPerson.Core.Contracts.csproj"
+      "path": "../MiniPerson.Core.Contracts/WebLog.Core.Contracts.csproj",
+      "msbuildProject": "../MiniPerson.Core.Contracts/WebLog.Core.Contracts.csproj"
     },
-    "MiniPerson.Core.Domain/1.0.0": {
+    "WebLog.Core.Domain/1.0.0": {
       "type": "project",
-      "path": "../MiniPerson.Core.Domain/MiniPerson.Core.Domain.csproj",
-      "msbuildProject": "../MiniPerson.Core.Domain/MiniPerson.Core.Domain.csproj"
+      "path": "../MiniPerson.Core.Domain/WebLog.Core.Domain.csproj",
+      "msbuildProject": "../MiniPerson.Core.Domain/WebLog.Core.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MiniPerson.Core.Contracts >= 1.0.0",
+      "WebLog.Core.Contracts >= 1.0.0",
       "Zamin.Infra.Data.Sql.Queries >= 7.0.0-beta.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\WindoW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj",
-      "projectName": "MiniPerson.Infra.Data.Sql.Queries",
-      "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\MiniPerson.Infra.Data.Sql.Queries.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\obj\\",
+      "projectUniqueName": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj",
+      "projectName": "WebLog.Infra.Data.Sql.Queries",
+      "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\WebLog.Infra.Data.Sql.Queries.csproj",
+      "packagesPath": "C:\\Users\\WindoW\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Infra.Data.Sql.Queries\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WindoW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3583,8 +3583,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\MiniPerson.Core.Contracts.csproj"
+            "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj": {
+              "projectPath": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Core.Contracts\\WebLog.Core.Contracts.csproj"
             }
           }
         }
@@ -3620,7 +3620,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

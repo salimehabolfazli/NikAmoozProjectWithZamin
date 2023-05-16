@@ -1,4 +1,4 @@
-using MiniPerson.Endpoints.API;
+using WebLog.Endpoints.API;
 using Zamin.Extensions.DependencyInjection;
 using Zamin.Utilities.SerilogRegistration.Extensions;
 
@@ -9,7 +9,7 @@ SerilogExtensions.RunWithSerilogExceptionHandling(() =>
     builder.Services.AddCors();
     var app = builder.AddZaminSerilog(c =>
     {
-        c.ApplicationName = "MiniPerson";
+        c.ApplicationName = "WebLog";
         c.ServiceName = "MiniPeopleervice";
         c.ServiceVersion = "1.0";
     }).ConfigureServices().ConfigurePipeline();

@@ -1,16 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MiniPerson.Core.Contracts.Products.Queries;
-using MiniPerson.Core.Contracts.Products.Queries.GetProducts;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
-using MiniPerson.Infra.Data.Sql.Queries.Common;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.Infra.Data.Sql.Queries;
+using WebLog.Core.Contracts.Products.Queries;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
+using WebLog.Core.Contracts.Products.Queries.GetProducts;
+using WebLog.Infra.Data.Sql.Queries.Common;
 
-namespace MiniPerson.Infra.Data.Sql.Queries.People
+namespace WebLog.Infra.Data.Sql.Queries.Products
 {
-    public class ProductQueryRepository : BaseQueryRepository<MiniPersonQueryDbContext>, IProductQueryRepository
+    public class ProductQueryRepository : BaseQueryRepository<WebLogQueryDbContext>, IProductQueryRepository
     {
-        public ProductQueryRepository(MiniPersonQueryDbContext dbContext) : base(dbContext)
+        public ProductQueryRepository(WebLogQueryDbContext dbContext) : base(dbContext)
         {
         }
         public async Task<ProductQr> Execute(GetProductByIdQuery query)

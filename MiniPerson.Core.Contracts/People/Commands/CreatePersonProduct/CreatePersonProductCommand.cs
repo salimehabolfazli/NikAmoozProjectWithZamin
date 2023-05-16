@@ -1,7 +1,6 @@
-﻿
-using Zamin.Core.Contracts.ApplicationServices.Commands;
+﻿using Zamin.Core.Contracts.ApplicationServices.Commands;
 
-namespace MiniPerson.Core.Contracts.People.Cammands.CreatePersonProduct
+namespace WebLog.Core.Contracts.People.Commands.CreatePersonProduct
 {
     public class CreatePersonProductCommand : ICommand<long>
     {

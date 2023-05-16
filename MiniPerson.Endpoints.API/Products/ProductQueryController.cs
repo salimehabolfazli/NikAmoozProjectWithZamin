@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using MiniPerson.Core.Contracts.Products.Queries.GetProducts;
-using MiniPerson.Core.Contracts.Products.Queries.GetProductById;
 using Zamin.Core.Contracts.Data.Queries;
 using Zamin.EndPoints.Web.Controllers;
+using WebLog.Core.Contracts.Products.Queries.GetProductById;
+using WebLog.Core.Contracts.Products.Queries.GetProducts;
 
-namespace MiniPerson.Endpoints.API.Products
+namespace WebLog.Endpoints.API.Products
 {
     [Route("api/[controller]")]
     public class ProductQueryController : BaseController

@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using GymProducts.Core.Domain;
-using MiniPerson.Core.Contracts.People.Cammands.CreatePersonProduct;
+using WebLog.Core.Contracts.People.Commands.CreatePersonProduct;
+using WebLog.Core.Domain;
 using Zamin.Extensions.Translations.Abstractions;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.CreatePersonProduct
+namespace WebLog.Core.ApplicationService.People.Commands.CreatePersonProduct
 {
     public class CreatePersonProductCommandValidator : AbstractValidator<CreatePersonProductCommand>
     {

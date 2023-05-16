@@ -1,28 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\background.png",
+      "Id": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\exampleJsInterop.js",
+      "Id": "F:\\Projects\\NikAmoozProjectWithZamin\\MiniPerson.Endpoints.Shared\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MiniPerson.Endpoints.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebLog.Endpoints.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MiniPerson.Endpoints.Shared.props",
-      "PackagePath": "build\\MiniPerson.Endpoints.Shared.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebLog.Endpoints.Shared.props",
+      "PackagePath": "build\\WebLog.Endpoints.Shared.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MiniPerson.Endpoints.Shared.props",
-      "PackagePath": "buildMultiTargeting\\MiniPerson.Endpoints.Shared.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebLog.Endpoints.Shared.props",
+      "PackagePath": "buildMultiTargeting\\WebLog.Endpoints.Shared.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MiniPerson.Endpoints.Shared.props",
-      "PackagePath": "buildTransitive\\MiniPerson.Endpoints.Shared.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebLog.Endpoints.Shared.props",
+      "PackagePath": "buildTransitive\\WebLog.Endpoints.Shared.props"
     }
   ],
   "ElementsToRemove": []

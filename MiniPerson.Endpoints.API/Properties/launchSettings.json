@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "MiniPerson.Endpoints.API": {
+    "WebLog.Endpoints.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -1,6 +1,5 @@
-﻿using MiniPerson.Core.Contracts.People.Commands.EditPerson;
-using MiniPerson.Core.Contracts.People.Commands;
-using MiniPerson.Core.Domain.People.Entities;
+﻿using WebLog.Core.Contracts.People.Commands.EditPerson;
+using WebLog.Core.Domain.People.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +8,10 @@ using System.Threading.Tasks;
 using Zamin.Core.ApplicationServices.Commands;
 using Zamin.Core.Contracts.ApplicationServices.Commands;
 using Zamin.Utilities;
-using MiniPerson.Core.Contracts.People.Commands.DeletePerson;
+using WebLog.Core.Contracts.People.Commands;
+using WebLog.Core.Contracts.People.Commands.DeletePerson;
 
-namespace MiniPerson.Core.ApplicationService.People.Commands.DeletePerson
+namespace WebLog.Core.ApplicationService.People.Commands.DeletePerson
 {
     public class DeletePersonCommandHandler : CommandHandler<DeletePersonCommand, bool>
     {
